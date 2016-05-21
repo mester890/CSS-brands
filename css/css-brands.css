@@ -1,0 +1,305 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+body {
+  font-family: Arial;
+}
+
+.container .social {
+  font-family: FontAwesome;
+  font-size: 3em;
+}
+
+.container .social .color a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container .social .color a span.facebook:after {
+  content: "\f082";
+  color: #3b5998;
+}
+
+.container .social .color a span.twitter:after {
+  content: "\f099";
+  color: #55acee;
+}
+
+.container .social .color a span.rss:after {
+  content: "\f09e";
+  color: #fb6405;
+}
+
+.container .social .color a span.github:after {
+  content: "\f09b";
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container .social .color a span.linkedin:after {
+  content: "\f0e1";
+  color: #287bbc;
+}
+
+.container .social .color a span.android:after {
+  content: "\f17b";
+  color: #6ab344;
+}
+
+.container .social .color a span.linux:after {
+  content: "\f17c";
+  color: black;
+}
+
+.container .social .color a span.skype:after {
+  content: "\f17e";
+  color: #0078ca;
+}
+
+.container .social .color a span.foursquare:after {
+  content: "\f180";
+  color: #2d5be3;
+}
+
+.container .social .color a span.trello:after {
+  content: "\f181";
+  color: #026aa7;
+}
+
+.container .social .color a span.dribbble:after {
+  content: "\f17d";
+  color: #ea4c89;
+}
+
+.container .social .color a span.windows:after {
+  content: "\f17a";
+  color: #006cc1;
+}
+
+.container .social .color a span.apple:after {
+  content: "\f179";
+  color: black;
+}
+
+.container .social .color a span.tumblr:after {
+  content: "\f173";
+  color: #529ecc;
+}
+
+.container .social .color a span.bitbucket:after {
+  content: "\f171";
+  color: #3572b0;
+}
+
+.container .social .color a span.flickr:after {
+  content: "\f16e";
+  color: #128fdc;
+}
+
+.container .social .color a span.instagram:after {
+  content: "\f16d";
+  color: black;
+}
+
+.container .social .color a span.stackoverflow:after {
+  content: "\f16c";
+  color: #fe7a15;
+}
+
+.container .social .color a span.dropbox:after {
+  content: "\f16b";
+  color: #007eef;
+}
+
+.container .social .color a span.youtube:after {
+  content: "\f16a";
+  color: #cd201f;
+}
+
+.container .social .color a span.bitcoin:after {
+  content: "\f15a";
+  color: #f7931a;
+}
+
+.container .social .black a {
+  display: inline-block;
+  margin: 0.4em;
+  text-decoration: none;
+  color: black;
+}
+
+.container .social .black a span.facebook:after {
+  content: "\f082";
+}
+
+.container .social .black a span.twitter:after {
+  content: "\f099";
+}
+
+.container .social .black a span.rss:after {
+  content: "\f09e";
+}
+
+.container .social .black a span.github:after {
+  content: "\f09b";
+}
+
+.container .social .black a span.linkedin:after {
+  content: "\f0e1";
+}
+
+.container .social .black a span.android:after {
+  content: "\f17b";
+}
+
+.container .social .black a span.linux:after {
+  content: "\f17c";
+}
+
+.container .social .black a span.skype:after {
+  content: "\f17e";
+}
+
+.container .social .black a span.foursquare:after {
+  content: "\f180";
+}
+
+.container .social .black a span.trello:after {
+  content: "\f181";
+}
+
+.container .social .black a span.dribbble:after {
+  content: "\f17d";
+}
+
+.container .social .black a span.windows:after {
+  content: "\f17a";
+}
+
+.container .social .black a span.apple:after {
+  content: "\f179";
+}
+
+.container .social .black a span.tumblr:after {
+  content: "\f173";
+}
+
+.container .social .black a span.bitbucket:after {
+  content: "\f171";
+}
+
+.container .social .black a span.flickr:after {
+  content: "\f16e";
+}
+
+.container .social .black a span.instagram:after {
+  content: "\f16d";
+}
+
+.container .social .black a span.stackoverflow:after {
+  content: "\f16c";
+}
+
+.container .social .black a span.dropbox:after {
+  content: "\f16b";
+}
+
+.container .social .black a span.youtube:after {
+  content: "\f16a";
+}
+
+.container .social .black a span.bitcoin:after {
+  content: "\f15a";
+}
+
+.container .social .white {
+  background: black;
+}
+
+.container .social .white a {
+  display: inline-block;
+  margin: 0.4em;
+  text-decoration: none;
+  color: white;
+}
+
+.container .social .white a span.facebook:after {
+  content: "\f082";
+}
+
+.container .social .white a span.twitter:after {
+  content: "\f099";
+}
+
+.container .social .white a span.rss:after {
+  content: "\f09e";
+}
+
+.container .social .white a span.github:after {
+  content: "\f09b";
+}
+
+.container .social .white a span.linkedin:after {
+  content: "\f0e1";
+}
+
+.container .social .white a span.android:after {
+  content: "\f17b";
+}
+
+.container .social .white a span.linux:after {
+  content: "\f17c";
+}
+
+.container .social .white a span.skype:after {
+  content: "\f17e";
+}
+
+.container .social .white a span.foursquare:after {
+  content: "\f180";
+}
+
+.container .social .white a span.trello:after {
+  content: "\f181";
+}
+
+.container .social .white a span.dribbble:after {
+  content: "\f17d";
+}
+
+.container .social .white a span.windows:after {
+  content: "\f17a";
+}
+
+.container .social .white a span.apple:after {
+  content: "\f179";
+}
+
+.container .social .white a span.tumblr:after {
+  content: "\f173";
+}
+
+.container .social .white a span.bitbucket:after {
+  content: "\f171";
+}
+
+.container .social .white a span.flickr:after {
+  content: "\f16e";
+}
+
+.container .social .white a span.instagram:after {
+  content: "\f16d";
+}
+
+.container .social .white a span.stackoverflow:after {
+  content: "\f16c";
+}
+
+.container .social .white a span.dropbox:after {
+  content: "\f16b";
+}
+
+.container .social .white a span.youtube:after {
+  content: "\f16a";
+}
+
+.container .social .white a span.bitcoin:after {
+  content: "\f15a";
+}

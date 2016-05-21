@@ -1,0 +1,64 @@
+doctype html
+head
+	title CSS-Brands
+	link(type="text/css", rel="stylesheet", href="css/main.css")
+
+body
+	.container
+		h1 CSS-Brands
+
+		hr
+		.info
+			h3 What is CSS-Brands?
+
+			p CSS-Brands contains a variaty of premade logos and brand names with the original colors. CSS-Brands uses <a href="http://fontawesome.io/">font-awesome</a> for the logos and is given the right colors by us.
+
+			p CSS-brands is a easy way to make your website look awesome with just a few classes and spans.
+
+			p We've made all the logos and brand names in both the original colors, black and white.
+
+
+		.icons
+			.social
+				.color
+					a(href="http://facebook.com/mester890"): span.facebook
+					a(href="http://github.com/mester890/"): span.github
+					a(href="http://twitter.com/mester890/"): span.twitter
+					a(href="http://stackoverflow.com/mester890/"): span.stackoverflow
+					a(href="https://www.linkedin.com/in/thomas-hovstad-070942101?trk=hp-identity-name"): span.linkedin
+		.icons-black
+			.social
+				.black
+					a(href="http://facebook.com/mester890"): span.facebook
+					a(href="http://github.com/mester890/"): span.github
+					a(href="http://twitter.com/mester890/"): span.twitter
+					a(href="http://stackoverflow.com/mester890/"): span.stackoverflow
+					a(href="https://www.linkedin.com/in/thomas-hovstad-070942101?trk=hp-identity-name"): span.linkedin
+		.icons-white
+			.social
+				.white
+					a(href="http://facebook.com/mester890"): span.facebook
+					a(href="http://github.com/mester890/"): span.github
+					a(href="http://twitter.com/mester890/"): span.twitter
+					a(href="http://stackoverflow.com/mester890/"): span.stackoverflow
+					a(href="https://www.linkedin.com/in/thomas-hovstad-070942101?trk=hp-identity-name"): span.linkedin
+
+		.how-to
+			h2 How do I use CSS-brands?
+
+
+
+			p It's simple. You just import our css-file into your project by eighter linking to it in the markup or if you're using sass you just import it directly into your stylesheet with the @import function.
+
+			p Now you just have to have a specific indent structure:
+
+			img(src="img/structure.png")
+
+			p This structure will give you this result:
+
+		.social
+			.color
+				a(href="http://facebook.com/"): span.facebook
+
+		.how-to
+			p As long as you have the .social class and eighter the .color, .black or .white, you'll get the result you want.
